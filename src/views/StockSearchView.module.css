@@ -1,0 +1,24 @@
+.wrapper {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.title {
+  margin: 0 0 8px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2328;
+}
+
+.status {
+  padding: 16px;
+  color: #57606a;
+  font-size: 14px;
+}
+
+.error {
+  padding: 16px;
+  color: #dc2626;
+  font-size: 14px;
+}

@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  gap: 4px;
+}
+
+.tab {
+  padding: 6px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #f7f8fa;
+  color: #57606a;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.tab:hover {
+  background: #e5e7eb;
+  color: #1f2328;
+}
+
+.active {
+  background: #3b82d4;
+  border-color: #3b82d4;
+  color: #ffffff;
+}
+
+.active:hover {
+  background: #2563c4;
+}

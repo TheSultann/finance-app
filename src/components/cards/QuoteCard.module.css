@@ -1,0 +1,47 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px 20px;
+  min-width: 160px;
+}
+
+.name {
+  font-size: 13px;
+  color: #57606a;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.symbol {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2328;
+  margin-bottom: 4px;
+}
+
+.change {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pct {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.positive {
+  color: #16a34a;
+}
+
+.negative {
+  color: #dc2626;
+}

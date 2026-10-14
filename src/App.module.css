@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.root {
+  min-height: 100vh;
+  background: #f7f8fa;
+  font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1f2328;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+}
+
+.controls {
+  margin-bottom: 24px;
+}
+
+.main {
+  /* views handle their own internal layout */
+}

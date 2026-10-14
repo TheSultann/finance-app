@@ -1,0 +1,37 @@
+.status,
+.error,
+.chartPlaceholder,
+.chartError {
+  padding: 16px;
+  color: #57606a;
+  font-size: 14px;
+}
+
+.error,
+.chartError {
+  color: #dc2626;
+}
+
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.chartWrapper {
+  /* border and background come from PriceChart */
+}
+
+.chartTitle {
+  margin: 0 0 8px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2328;
+}

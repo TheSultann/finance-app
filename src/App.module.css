@@ -24,3 +24,46 @@
 .main {
   /* views handle their own internal layout */
 }
+
+.tickerForm {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.tickerInput {
+  flex: 1;
+  max-width: 320px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1f2328;
+  outline: none;
+}
+
+.tickerInput:focus {
+  border-color: #3b82d4;
+  box-shadow: 0 0 0 2px rgba(59, 130, 212, 0.15);
+}
+
+.tickerButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  color: #ffffff;
+  background: #3b82d4;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tickerButton:hover {
+  background: #2563b0;
+}
